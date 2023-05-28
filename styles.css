@@ -29,7 +29,6 @@ body {
   align-items: center;
   z-index: +1;
   border-radius: 20px;
-  height: 360px;
   width: 240px;
   background: linear-gradient(180deg, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }
@@ -40,7 +39,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 280px;
-  height: 360px;
+  min-height: 340px;
   background-color: hsl(0, 0%, 100%);
   border-radius: 20px;
 }
@@ -59,7 +58,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 135px;
-  height: 135px;
+  padding: 15px;
   background: linear-gradient(
     180deg,
     hsla(256, 72%, 46%, 1),
@@ -90,13 +89,13 @@ body {
 
 .form p {
   color: hsl(241, 100%, 89%);
-  margin-top: 10px;
+  margin: 10px 0;
   text-align: center;
   width: 170px;
 }
 
 .summary {
-  margin: 20px 0 0px 40px;
+  margin: 5px 0 0px 40px;
 }
 
 .summary h3 {
@@ -106,9 +105,8 @@ body {
 .form2 {
   display: flex;
   flex-direction: column;
-  height: 275px;
   width: 225px;
-  margin: 20px 0 0 40px;
+  margin: 10px 0 0 40px;
 }
 
 .schedule {
@@ -164,7 +162,6 @@ span {
 
 .button-div {
   display: flex;
-  height: 115px;
   justify-content: center;
   align-items: center;
 }
@@ -172,7 +169,7 @@ span {
 button {
   color: hsl(0, 0%, 100%);
   background: hsl(224, 30%, 27%);
-  margin-left: 25px;
+  margin: 20px 0 0 25px;
   height: 40px;
   width: 225px;
   border-radius: 20px;
@@ -197,16 +194,21 @@ button:active {
   }
 
   .box1 {
-    width: 100%;
+    width: 95%;
   }
 
   .box2 {
     right: 0px;
-    width: 100%;
+    width: 95%;
   }
 
   .form2 {
     width: 300px;
+    margin: 10px auto;
+  }
+
+  .summary {
+    margin-top: 10px;
   }
 
   .schedule {
@@ -214,7 +216,8 @@ button:active {
   }
 
   button {
-    margin: 0;
+    margin: 5px auto;
+    margin-bottom: 10px;
   }
 
   .circle {
