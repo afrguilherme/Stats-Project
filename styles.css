@@ -190,6 +190,7 @@ button:active {
     flex-direction: column;
     max-width: 375px;
     width: 100%;
+    margin: 30px auto;
     height: 100vh;
   }
 
